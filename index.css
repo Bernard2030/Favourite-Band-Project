@@ -2,35 +2,93 @@ body {
     /*Apply to <body> and possibly its descendants*/
     font-family:  Georgia;
     font-size: medium;
-    margin: 10px auto 10px auto; /*top right bottom left*/
+    margin: 0; 
     padding: 0%;
+    border: snow;
 }
 /*tag selector*/
-h2 {
+/* h2 {
     background-color: aqua; color: burlywood; text-align: left;
-}
+} */
 /*ID-selector (id-value is unique in a document) */
-#content {
-    font-size: 20px; color: coral;
+.content {
+    /* font-size: 20px; 
+    color: brown; */
+    background-image: url('https://media.gettyimages.com/photos/the-band-westlife-attends-the-goldene-kamera-at-tempelhof-airport-on-picture-id1139364854?s=2048x2048');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1100px;
+    width: 100%;
+    text-align: center;
 }
-h1 {
-    background-color: crimson; color: darkgray; font-size: 70; text-align: center;
-}
-h3 {
+
+/* h1 { display: flex;
+    background-color: crimson; color: darkgray; font-size: 70; text-align: center; padding: 5px; 
+} */
+/* h3 {
     color: turquoise; text-align: justify; font-weight: bold;
-}
-#content h1 {
-    color: bisque;background-color: white; font-family: monospace;
-}
-body {
-    display: flex;
-    flex-direction: column; align-items: center;
-    text-align:;
-}
+} */
+
+/* body {
+    
+    flex-direction: column; 
+    align-items: center;
+    text-align: justify;
+} */
 ol {
-    border: solid yellowgreen;
+    border: snow;
     /*add your css below this line*/
     
 }
+div {display: flex;}
+div.h1 {
+    display: flex; 
+}
+body {
+    background-color: white;
+}
+.head {
+    margin-top: 200px;
+    margin-left: 400px;
+    text-align: center;
+    font-size: 200px;
+    color: red;
+    font-weight: 900;
+    font-style: italic;
+    letter-spacing: 1rem;
+}
+
+.p_home {
+    text-align: center;
+    margin: 20px;
+    font-size: 23px;
+    line-height: 30px;
+}
 
 
+
+#members h2 {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: crimson;
+    font-size: 30px;
+}
+
+.members_list li {
+    width: 24%;
+    display: inline-block;
+}
+
+.members_list img {
+    border-radius: 20px;
+}
+
+.members_list h3 {
+    text-align: center;
+}
+#members p {
+    color: darkolivegreen;
+    font-size: bold;
+}

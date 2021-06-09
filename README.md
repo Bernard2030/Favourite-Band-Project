@@ -1,4 +1,4 @@
-# {Application Name}
+# {Favorite Band}
 #### {Website Design}, {7th June 2021}
 #### By **{Bernard Opiyo}**
 ## Description
